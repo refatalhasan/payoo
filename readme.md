@@ -15,7 +15,10 @@ Mobile Number:
 ```
 123456789
 ```
-
+or
+```
+1234
+```
 
 PIN: 
 ```
@@ -25,6 +28,3 @@ PIN:
 ## 🔗 Links
 - **Repository:** [Payoo GitHub Repo](https://github.com/refatalhasan/payoo)
 - **Live Demo:** [Payoo Live Site](https://refatalhasan.github.io/payoo/)
-
-## 👨‍💻 Author
-- [Refat al hasan](https://github.com/refatalhasan)
