@@ -5,13 +5,21 @@ Payoo is a simple yet functional mobile banking interface demonstrating core web
 ## 🚀 Technologies Used
 - HTML5
 - CSS3
+- Responsive Design
 - JavaScript (DOM Manipulation)
-- Responsive Design (Media Queries, Flexbox)
+
 
 ## 🔑 Demo Login Credentials
+
+Mobile Number: 
 ```
-Mobile Number: 123456789
-PIN: 1234
+123456789
+```
+
+
+PIN: 
+```
+1234
 ```
 
 ## 🔗 Links
