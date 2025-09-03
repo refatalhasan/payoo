@@ -16,7 +16,7 @@ document.getElementById('login-btn').addEventListener ('click', function(event){
     const pinNumber = document.getElementById('pin').value;
     console.log(pinNumber);
 
-    if(phoneNumber === '123456789' || phoneNumber === '1234' && pinNumber === '1234'){
+    if(phoneNumber === '123456789' && pinNumber === '1234'){
         console.log('Loged In')
 
     }
