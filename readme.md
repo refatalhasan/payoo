@@ -27,4 +27,4 @@ PIN:
 - **Live Demo:** [Payoo Live Site](https://refatalhasan.github.io/payoo/)
 
 ## 👨‍💻 Author
-- [Refat Al Hasan](https://github.com/refatalhasan)
+- [Refat al hasan](https://github.com/refatalhasan)
