@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     // console.log(pinNumber);
 
     if (phoneNumber === '1234' && pinNumber === '1234') {
-        window.location.href = '../pages/home.html';
+        window.location.href = 'payoo/pages/home.html';
     }
     else {
         alert('Login failed, wrong phone or pin number');
