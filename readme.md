@@ -13,7 +13,7 @@ Payoo is a simple yet functional mobile banking interface demonstrating core web
 
 Mobile Number: 
 ```
-123456789
+1234
 ```
 
 PIN: 
