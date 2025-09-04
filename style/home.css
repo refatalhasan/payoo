@@ -15,7 +15,6 @@ body {
 }
 
 main {
-    border: 1px solid red;
     height: fit-content;
     width: 100%;
     display: flex;
@@ -78,7 +77,6 @@ main {
 #btn-div {
     width: 100%;
     height: fit-content;
-    border: 1px red solid;
     padding: 30px;
     gap: 20px;
     display: flex;
