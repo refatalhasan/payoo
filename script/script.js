@@ -15,8 +15,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     // console.log(pinNumber);
 
     if (phoneNumber === '1234' && pinNumber === '1234') {
-        window.location.href = 'https://refatalhasan.github.io/payoo/pages/home.html
-';
+        window.location.href = 'https://refatalhasan.github.io/payoo/pages/home.html';
         // window.location.href = '../pages/home.html'
     }
     else {
