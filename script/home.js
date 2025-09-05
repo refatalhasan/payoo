@@ -9,7 +9,7 @@ document.getElementById('add-mny-btn').addEventListener('click', function (event
 
     if (pinNumber === '1234') {
         if (addMoney <= 0) {
-            alert('Enter valid amount')
+            alert('Enter a valid amount')
 
         } else {
             const availableBalance = document.getElementById('balance').innerText
@@ -50,7 +50,7 @@ document.getElementById('cashout-btn').addEventListener('click', function (event
         if (demoBalance <= 0) {
             alert('Not enough balance');
         } else if (cashoutAmount <= 0) {
-            alert('Enter valid amount');
+            alert('Enter a valid amount');
 
         } else {
             const realbalance = availableAmount - cashoutAmount;
