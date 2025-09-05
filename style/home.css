@@ -100,12 +100,6 @@ main {
     cursor: pointer;
 }
 
-#btn-div>button:active {
-    background-color: #207EC1;
-    color: white;
-    cursor: pointer;
-}
-
 #form-sec {
     height: fit-content;
     padding: 30px;
@@ -133,6 +127,14 @@ main {
     height: fit-content;
 }
 
+#cashout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
 #add-mny-form>input {
     padding: 20px;
     border: none;
@@ -141,7 +143,22 @@ main {
     font-size: 1.2rem;
 }
 
+#cashout-form>input {
+    padding: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(187, 187, 187);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
 #add-mny-form>label {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(19, 19, 19);
+}
+
+#cashout-form>label {
     margin: 10px;
     font-size: 1.5rem;
     font-weight: 500;
@@ -162,18 +179,34 @@ main {
     cursor: pointer;
 }
 
+#cashout-form>button {
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #207EC1;
+    border: #207EC1 2px solid;
+    box-shadow: 1px 1px 5px rgb(216, 216, 216);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: ease-in-out 280ms;
+    cursor: pointer;
+}
+
+#cashout-form>button:hover {
+    background-color: #207EC1;
+    color: rgb(255, 255, 255);
+}
+
 #add-mny-form>button:hover {
     background-color: #207EC1;
     color: rgb(255, 255, 255);
 }
 
 
-
-
-
 /* tablet */
 @media screen and (max-width: 900px) {
-    #balance-card {        
+    #balance-card {
         padding: 24px 30px;
     }
 
@@ -205,7 +238,15 @@ main {
         gap: 20px;
     }
 
+    #cashout-form {
+        gap: 20px;
+    }
+
     #add-mny-form>input {
+        font-size: 1rem;
+    }
+
+    #cashout-form>input {
         font-size: 1rem;
     }
 
@@ -213,7 +254,16 @@ main {
         font-size: 1.4rem;
     }
 
+    #cashout-form>label {
+        font-size: 1.4rem;
+    }
+
     #add-mny-form>button {
+        padding: 24px;
+        font-size: 1rem;
+    }
+
+    #cashout-form>button {
         padding: 24px;
         font-size: 1rem;
     }
@@ -232,7 +282,7 @@ main {
     }
 
     #balance-card>h4 {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
 
     #balance-card>p {
@@ -258,7 +308,7 @@ main {
         border-radius: 10px;
         font-size: 0.8rem;
     }
-    
+
     #form-sec {
         padding: 14px;
     }
@@ -272,7 +322,17 @@ main {
         gap: 14px;
     }
 
+    #cashout-form {
+        gap: 14px;
+    }
+
     #add-mny-form>input {
+        padding: 16px;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    #cashout-form>input {
         padding: 16px;
         border-radius: 8px;
         font-size: 1rem;
@@ -280,11 +340,22 @@ main {
 
     #add-mny-form>label {
         margin: 4px;
-        margin-left:  10px;
+        margin-left: 10px;
+        font-size: 1.1rem;
+    }
+
+    #cashout-form>label {
+        margin: 4px;
+        margin-left: 10px;
         font-size: 1.1rem;
     }
 
     #add-mny-form>button {
+        padding: 14px;
+        border-radius: 8px;
+    }
+
+    #cashout-form>button {
         padding: 14px;
         border-radius: 8px;
     }
