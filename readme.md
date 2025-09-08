@@ -20,7 +20,10 @@ PIN:
 ```
 1234
 ```
+## 🔗 Clone this repo
 
-## 🔗 Links
-- **Repository:** [Payoo GitHub Repo](https://github.com/refatalhasan/payoo)
-- **Live Demo:** [Payoo Live Site](https://refatalhasan.github.io/payoo/)
+```
+git clone https://github.com/refatalhasan/payoo.git
+```
+## 🌐 Live
+[Click here to see live website](https://refatalhasan.github.io/payoo/)
